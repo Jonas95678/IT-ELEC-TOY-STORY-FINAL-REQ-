@@ -193,6 +193,10 @@ $displayChars  = (int) mysqli_num_rows(mysqli_query($conn, "SELECT id FROM `$tab
                     </div>
                 </div>
                 <div class="topbar-right">
+                    <a href="../index.php" target="_blank" class="view-site-btn">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span>View Site</span>
+                    </a>
                 </div>
             </header>
 
