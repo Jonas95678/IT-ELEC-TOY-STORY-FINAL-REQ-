@@ -204,10 +204,6 @@ $displayChars  = (int) mysqli_num_rows(mysqli_query($conn, "SELECT id FROM `$tab
                        style="font-size:.8rem;padding:.4rem 1rem;">
                         <i class="fas fa-external-link-alt me-1"></i> View Site
                     </a>
-                    <div class="profile-avatar">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23F4C542'/%3E%3Ctext x='50' y='62' font-size='48' text-anchor='middle' fill='%231a2744' font-family='Bangers'%3E<?php echo strtoupper(substr($_SESSION['username'],0,1)); ?>%3C/text%3E%3C/svg%3E"
-                             alt="Avatar" class="avatar-img">
-                    </div>
                 </div>
             </header>
 
