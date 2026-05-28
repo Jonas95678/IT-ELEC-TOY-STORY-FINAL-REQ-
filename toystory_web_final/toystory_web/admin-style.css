@@ -1143,20 +1143,24 @@
 
 @media (max-width: 1024px) {
     .admin-main {
-        margin-left: 0;
+        margin-left: 280px;
         padding: 1.5rem;
     }
 
     .admin-sidebar {
-        transform: translateX(-100%);
-    }
-
-    .admin-sidebar.active {
         transform: translateX(0);
     }
 
+    .admin-sidebar.collapsed {
+        width: 280px;
+    }
+
+    .admin-sidebar.collapsed ~ .admin-main {
+        margin-left: 280px;
+    }
+
     .mobile-menu-toggle {
-        display: block;
+        display: none;
     }
 
     .stats-grid {
