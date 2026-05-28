@@ -170,12 +170,6 @@ $displayChars  = (int) mysqli_num_rows(mysqli_query($conn, "SELECT id FROM `$tab
                             <span class="nav-text">Characters</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="index.php" class="nav-link" target="_blank">
-                            <i class="fas fa-globe"></i>
-                            <span class="nav-text">View Website</span>
-                        </a>
-                    </li>
                 </ul>
             </nav>
             <div class="sidebar-footer">
@@ -199,11 +193,6 @@ $displayChars  = (int) mysqli_num_rows(mysqli_query($conn, "SELECT id FROM `$tab
                     </div>
                 </div>
                 <div class="topbar-right">
-                    <a href="index.php" target="_blank"
-                       class="btn btn-secondary cinematic-btn me-2"
-                       style="font-size:.8rem;padding:.4rem 1rem;">
-                        <i class="fas fa-external-link-alt me-1"></i> View Site
-                    </a>
                 </div>
             </header>
 
